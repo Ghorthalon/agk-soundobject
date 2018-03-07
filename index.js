@@ -147,7 +147,7 @@ class SoundObject {
 		this.queue = new Array();
 		this.queueLength = 0;
 		this.statusCallback = null;
-
+/*
 		if (Howler.codecs('opus') === true) {
 			this.extension = '.opus';
 			this.directory = './soundsopus/';
@@ -155,7 +155,9 @@ class SoundObject {
 			this.directory = '../soundsm4a/';
 			this.extension = '.m4a';
 		}
-
+*/
+this.directory = "./sounds/";
+this.extension = ".wav";
 		this.oneShotSound = null;
 	}
 
