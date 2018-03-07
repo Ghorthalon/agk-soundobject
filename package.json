@@ -1,0 +1,21 @@
+{
+  "name": "agk-soundobject",
+  "version": "0.0.0",
+  "description": "Wrapper around Howler to allow preloading into memory, mainly used for audio games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Sound",
+    "wrapper",
+    "howler",
+    "memory",
+    "preload"
+  ],
+  "author": "Ghorthalon",
+  "license": "MIT",
+  "dependencies": {
+    "howler": "^2.0.9"
+  }
+}
